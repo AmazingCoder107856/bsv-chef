@@ -1,4 +1,4 @@
-version: '3'
+version: '3.0.0'
 
 services:
   mongodb:
@@ -22,7 +22,7 @@ services:
       - FLASK_BIND_IP=0.0.0.0
       - PYTHONUNBUFFERED=1
     ports:
-      - "5000:5000"
+      - "5001:5001"
 
 networks:
   tinychef:
